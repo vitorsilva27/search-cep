@@ -5,7 +5,6 @@ import { Container } from "./styles";
 
 import { Text } from "../components/Text";
 import { Form } from "../components/Form";
-import { Modal } from "../components/Modal";
 
 export const App = () => {
   return (
@@ -13,8 +12,6 @@ export const App = () => {
       <Text type="h1" children="Buscador de CEP" />
 
       <Form />
-
-      <Modal />
     </Container>
   );
 };

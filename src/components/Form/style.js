@@ -37,3 +37,17 @@ export const ButtonSearch = styled.button`
     transform: scale(1.3);
 }
 `;
+
+export const ContainerModal = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 12px 46px;
+  border-radius: 8px;
+
+  @media (max-width: 800px) {
+    width: 80%;
+  }
+`;
